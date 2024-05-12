@@ -1,1 +1,58 @@
+html{
+  scroll-behavior: smooth;
+}
 
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  display: flex;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+section:nth-child(1){
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  background-color: #1e1e1e;
+  width: 30%;
+  height: 100vh;
+  position: fixed;
+  color: white;
+}
+
+section:nth-child(1) img{
+  margin: 50px;
+  width: 60%;
+  border-radius: 100%;
+}
+
+#name h1{
+  font-size: 28px;
+}
+
+section:nth-child(2){
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  font-size: 30px;
+  position: relative;
+  left: 30%;
+}
+
+#mail svg, #phone svg, #address svg{
+  width: 3.5vh;
+  fill: white;
+  position: relative;
+  right: 10px;
+}
+
+#mail, #phone, #address{
+  margin: 10px;
+  display: flex;
+  position: relative;
+  top: 40px;
+  left: 25px;
+}
