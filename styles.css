@@ -18,41 +18,116 @@ section:nth-child(1){
   text-align: center;
   justify-content: center;
   background-color: #1e1e1e;
-  width: 30%;
+  width: 35%;
   height: 100vh;
   position: fixed;
   color: white;
 }
 
 section:nth-child(1) img{
-  margin: 50px;
-  width: 60%;
+  position: relative;
+  margin: 80px 0 50px 0;
+  width: 300px;
   border-radius: 100%;
+  transition: .5s;
+  border: 3px solid #fff;
+}
+
+section:nth-child(1) img:hover{
+  position: relative;
+  transform: rotate(10deg);
+  transition: .5s;
+  margin: 80px 0 50px 0;
+  box-shadow: 0px 0px 9px 1px rgba(255,255,255,0.75);
+  width: 330px;
 }
 
 #name h1{
-  font-size: 28px;
+  font-size: 30px;
 }
 
 section:nth-child(2){
   background-color: rgb(255, 255, 255);
-  width: 70%;
-  font-size: 30px;
+  width: 65%;
   position: relative;
-  left: 30%;
+  left: 35%;
+  height: auto;
+  overflow-x: hidden;
 }
 
 #mail svg, #phone svg, #address svg{
-  width: 3.5vh;
+  width: 3vh;
   fill: white;
   position: relative;
   right: 10px;
 }
 
 #mail, #phone, #address{
-  margin: 10px;
+  margin: 15px;
   display: flex;
   position: relative;
-  top: 40px;
-  left: 25px;
+  top: 60px;
+  left: 50px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+section:nth-child(2) h2{
+  font-size: 28px;
+  position: relative;
+  left: 200px;
+  margin-top: 50px;
+  background-color: #e8e8e8;
+  padding: 10px;
+  padding-right: 40px;
+  padding-left: 20px;
+  width: 75%;
+}
+
+section:nth-child(2) h3{
+  font-size: 20px;
+  position: relative;
+  left: 220px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+section:nth-child(2) .info{
+  position: relative;
+  padding: 10px;
+  width: 70%;
+}
+
+section:nth-child(2) h4{
+  font-size: 20px;
+  position: relative;
+  left: 230px;
+  padding: 10px;
+  font-weight: 400;
+  width: 60%;
+}
+
+section:nth-child(2) ul{
+  left: 270px;
+  position: relative;
+  width: 70%;
+}
+
+section:nth-child(2) svg{
+  width: 50px;
+  position: relative;
+  left: 210px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+#info-experience, #info-knowledge, #info-educational-background, #info-complementary-background{
+  display: flex;
+}
+
+#info-complementary-background .info ul{
+  margin-bottom: 50px;
 }
