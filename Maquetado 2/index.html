@@ -3,19 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maquetado 1</title>
+  <title>Maquetado 2</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
   <script src="script.js"></script>
 </head>
 <body>
   <div class="card-container">
     <div class="card">
       <div class="front">
-        A
+        <h1>Registro a evento</h1>
+        <br>
+        <p>Llene los siguientes datos para registrarse al evento</p>
+        <hr>
+        <h2>Fecha</h2>
+        <p>13 de Mayo del 2024</p>
+        <br>
+        <h2>Dirección</h2>
+        <p>C. 111 315, Santa Rosa, 97279 Mérida, Yuc.</p>
+        <br>
+        <h2>Nombre completo</h2>
+        <div id="info">
+          <input type="name" placeholder="Nombre(s)">
+          <input type="last-name" placeholder="Apellido(s)">
+        </div>
+        <button class="primary-button">Ver ubicación</button>
+        <button class="register-button">Registrarse</button>
       </div>
-      <div class="back">
-        B
-      </div>
+    </div>
+    <div class="location">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d658.7321821607846!2d-89.61629879296946!3d20.93837699562473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5672270a784baf%3A0x764b40010695f0d9!2sUniversidad%20Tecnol%C3%B3gica%20Metropolitana!5e0!3m2!1ses!2smx!4v1715574304771!5m2!1ses!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
   
